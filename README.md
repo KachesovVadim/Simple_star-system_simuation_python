@@ -4,7 +4,7 @@
 
 ## Документация:
 
-Для отрисовки графики используется Turtle.
+Для отрисовки графики используется Turtle. Никаких модулей устанавливать не нужно.
 
 PlanetSystem.py – файл с логикой.
 
@@ -15,12 +15,12 @@ CustomStarSystem.py – лаунчер симуляции.
 -	Сид
 -	W,H окна
 -	Уничтожение системы при столкновении звезд (ISC_DS)
--	Предпросчет стабильных орбит (PRE_CALCULATE_SIM)
+-	Предпросчет стабильных орбит (PRE_CALCULATE_SIM) - при значениях по умолчанию занимает 23сек на core i5 11400
 -	Кол-во итераций для предпросчета (CALCULATE_ITERATIONS)
 -	Отрисовка орбит (NeedToDrawOrbit)
 -	Звезды системы
     -	Массу
-    -	Радиус в px
+    -	Радиус в px (по желанию)
     -	Температуру (влияет на цвет звезды)
     -	Положение на канвасе
     -	Ускорение
@@ -30,6 +30,8 @@ CustomStarSystem.py – лаунчер симуляции.
 ## Changelog
 
 Структура проекта позаимствована и модифицирована из - https://youtu.be/DeW3arA2_ao
+
+Было добавлено:
 
 - Цвета планет.
 - При столкновении звезд симуляция завершается. Можно отменить, изменив переменную
@@ -44,3 +46,13 @@ CustomStarSystem.py – лаунчер симуляции.
 P.S. Масса измеряется в произвольных единицах. Радиус в px
 - Предпросчет стабильных орбит. Можно отменить, изменив переменную
 - Возможность воспроизвести симуляцию с помощью сида
+
+## Фотогалерея
+![demo](https://github.com/KachesovVadim/Simple_star-system_simuation_python/assets/142095950/0da21036-686d-4088-9b63-7a4d2936003d)
+![Screenshot_1](https://github.com/KachesovVadim/Simple_star-system_simuation_python/assets/142095950/15b8e273-adb5-4016-8492-5c7bf9e4e7af)
+![Screenshot_2_cr](https://github.com/KachesovVadim/Simple_star-system_simuation_python/assets/142095950/5d93c3e6-8e63-4130-9e31-cd9749ebacb8)
+![Screenshot_3](https://github.com/KachesovVadim/Simple_star-system_simuation_python/assets/142095950/86829ce1-4890-4d0b-90a8-80a9928df9c5)
+![Screenshot_2](https://github.com/KachesovVadim/Simple_star-system_simuation_python/assets/142095950/c505d10c-f49d-44cb-aa69-da5bf35f5bad)
+![Screenshot_4](https://github.com/KachesovVadim/Simple_star-system_simuation_python/assets/142095950/4dae1957-40d2-4108-bb22-4bb275b2237d)
+![Screenshot_5](https://github.com/KachesovVadim/Simple_star-system_simuation_python/assets/142095950/1061c465-d424-40f8-837c-157306f0f3bf)
+
